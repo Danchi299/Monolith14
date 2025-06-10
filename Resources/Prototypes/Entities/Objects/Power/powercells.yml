@@ -36,6 +36,7 @@
   - type: HitscanBatteryAmmoProvider
     proto: RedLightLaser
     fireCost: 50
+  - type: EnergyTradeSender # Mono
 
 - type: entity
   name: potato battery
