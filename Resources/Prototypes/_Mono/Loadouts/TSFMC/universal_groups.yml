@@ -124,11 +124,12 @@
 - type: loadoutGroup
   id: TsfmcNeck
   name: loadout-group-contractor-neck
+  hidden: true # No point in showing this, it gets auto-selected.
   minLimit: 1
   loadouts:
-  - ContractorClothingNeckIFFCyan
+  - TsfmcClothingNeckIFFCyan
   fallbacks:
-  - ContractorClothingNeckIFFCyan
+  - TsfmcClothingNeckIFFCyan
 
 - type: loadoutGroup
   id: TsfmcBrigmedicGlasses

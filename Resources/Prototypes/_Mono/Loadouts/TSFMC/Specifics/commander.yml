@@ -3,10 +3,10 @@
   name: loadout-group-contractor-neck
   minLimit: 1
   loadouts:
-  - ContractorClothingNeckIFFCyan
+  - TsfmcClothingNeckIFFCyan
   - SheriffClothingNeckMantleSheriff
   fallbacks:
-  - ContractorClothingNeckIFFCyan
+  - TsfmcClothingNeckIFFCyan
 
 - type: loadoutGroup
   id: TsfmcEarsCommander
