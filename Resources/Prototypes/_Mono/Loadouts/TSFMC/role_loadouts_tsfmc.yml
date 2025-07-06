@@ -165,7 +165,7 @@
 - type: roleLoadout
   id: JobTsfEngineer
   groups:
-  - TsfmcNeck
+  - TsfmcNeckEngi
   - TsfmcJumpsuitEngi
   - TsfmcGloves
   - TsfmcEngiModsuit

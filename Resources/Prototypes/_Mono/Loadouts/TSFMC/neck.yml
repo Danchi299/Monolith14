@@ -2,3 +2,8 @@
   id: TsfmcClothingNeckIFFCyan
   equipment:
     neck: ClothingNeckIFFCyan
+
+- type: loadout
+  id: TsfmcClothingNeckIFFOrange
+  equipment:
+    neck: ClothingNeckIFFOrange
