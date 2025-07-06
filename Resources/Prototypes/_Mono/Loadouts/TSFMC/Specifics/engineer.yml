@@ -7,3 +7,10 @@
   - TsfmcClothingNeckIFFCyan
   fallbacks:
   - TsfmcClothingNeckIFFCyan
+
+- type: loadoutGroup
+  id: TsfmcHeadEngi
+  loadouts:
+  - TsfmcBeretEngineer
+  fallbacks:
+  - TsfmcBeretEngineer

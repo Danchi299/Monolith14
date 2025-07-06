@@ -7,3 +7,8 @@
   id: TsfmcBeret
   equipment:
     head: ClothingHeadHatBeretCommander
+
+- type: loadout
+  id: TsfmcBeretEngineer
+  equipment:
+    head: ClothingHeadHatBeretEngineering
