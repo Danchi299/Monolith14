@@ -62,7 +62,7 @@
 - type: roleLoadout
   id: JobBrigmedic
   groups:
-  - TsfmcHead
+  - TsfmcHeadMedic
   - TsfmcNeck
   - TsfmcJumpsuit
   - TsfmcBrigmedicGloves
