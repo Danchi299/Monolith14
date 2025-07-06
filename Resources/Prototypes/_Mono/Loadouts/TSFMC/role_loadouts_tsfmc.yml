@@ -63,7 +63,7 @@
   id: JobBrigmedic
   groups:
   - TsfmcHeadMedic
-  - TsfmcNeck
+  - TsfmcNeckMedic
   - TsfmcJumpsuit
   - TsfmcBrigmedicGloves
   - TsfmcBackpack

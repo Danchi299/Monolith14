@@ -7,3 +7,8 @@
   id: TsfmcClothingNeckIFFOrange
   equipment:
     neck: ClothingNeckIFFOrange
+
+- type: loadout
+  id: TsfmcClothingNeckIFFWhite
+  equipment:
+    neck: ClothingNeckIFFNeutral
