@@ -7,3 +7,8 @@
   id: TsfmcNitrileGloves
   equipment:
     gloves: ClothingHandsGlovesNitrile
+
+- type: loadout
+  id: TsfmcLatexGloves
+  equipment:
+    gloves: ClothingHandsGlovesLatex
