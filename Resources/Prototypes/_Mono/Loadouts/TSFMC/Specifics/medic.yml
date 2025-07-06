@@ -1,9 +1,0 @@
-- type: loadoutGroup
-  id: TsfmcHeadMedic
-  minLimit: 1
-  maxLimit: 1
-  loadouts:
-  - TsfmcBeretMedic
-  - TsfmcBeret
-  fallbacks:
-  - TsfmcBeret

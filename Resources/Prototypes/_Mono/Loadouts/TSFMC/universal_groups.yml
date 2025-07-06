@@ -128,7 +128,14 @@
   minLimit: 1
   loadouts:
   - TsfmcClothingNeckIFFCyan
-  fallbacks:
+
+- type: loadoutGroup
+  id: TsfmcNeckEngi
+  name: loadout-group-contractor-neck
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - TsfmcClothingNeckIFFOrange
   - TsfmcClothingNeckIFFCyan
 
 - type: loadoutGroup
@@ -147,6 +154,20 @@
   loadouts:
   - TsfmcHelmet
   - TsfmcBeret
+
+- type: loadoutGroup
+  id: TsfmcHeadMedic
+  name: loadout-group-contractor-head
+  loadouts:
+  - TsfmcHelmet
+  - TsfmcBeret
+  - TsfmcBeretMedic
+
+- type: loadoutGroup
+  id: TsfmcHeadEngi
+  name: loadout-group-contractor-head
+  loadouts:
+  - TsfmcBeretEngineer
 
 # Grunt headsets
 - type: loadoutGroup
