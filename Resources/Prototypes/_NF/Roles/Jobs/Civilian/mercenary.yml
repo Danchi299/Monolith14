@@ -6,7 +6,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 54000 # mono - change to 15 hr
-  startingGear: MercenaryGear
   canBeAntag: true
   icon: "JobIconMercenary"
   supervisors: job-supervisors-hire
@@ -21,9 +20,3 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
-
-- type: startingGear
-  id: MercenaryGear
-  storage:
-    back:
-    - WeaponPistolMk32

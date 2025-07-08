@@ -23,6 +23,8 @@
   - ContractorWallet
   - ContractorEncryptionKey
   - NfsdSpeciesSpecific
+  - UsspFirearm
+  - UsspMag
 
 - type: roleLoadout
   id: JobUSSPCorporal
@@ -41,6 +43,8 @@
   - ContractorWallet
   - ContractorEncryptionKey
   - NfsdSpeciesSpecific
+  - UsspFirearm
+  - UsspMag
 
 
 - type: roleLoadout
@@ -61,6 +65,8 @@
   - NfsdSpeciesSpecific
   - USSPMedhud
   - TsfmcBrigmedicBelt
+  - UsspFirearm
+  - UsspMag
 
 - type: roleLoadout
   id: JobUSSPSergeant
@@ -79,6 +85,8 @@
   - NfsdSpeciesSpecific
   - USSPOuterClothingOfficer
   - USSPHeadOfficer
+  - UsspFirearm
+  - UsspMag
 
 - type: roleLoadout
   id: JobUSSPCommissar
@@ -97,3 +105,5 @@
   - ContractorEncryptionKey
   - NfsdSpeciesSpecific
   - USSPHeadCommissar
+  - UsspFirearm
+  - UsspMag

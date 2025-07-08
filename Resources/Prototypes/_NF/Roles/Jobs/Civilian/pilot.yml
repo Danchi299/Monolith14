@@ -6,7 +6,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 28800 # mono - change to 8hrs
-  startingGear: PilotGear
   icon: "JobIconPilot"
   supervisors: job-supervisors-hire
   weight: 2 # Prioritize station & department jobs
@@ -21,10 +20,3 @@
     components:
       - type: SurgerySpeedModifier
         SpeedModifier: 1.25
-
-
-- type: startingGear
-  id: PilotGear
-  storage:
-    back:
-    - WeaponPistolMk32

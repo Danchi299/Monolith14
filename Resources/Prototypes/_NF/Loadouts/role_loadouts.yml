@@ -24,6 +24,8 @@
   - ContractorTrinkets
   - ContractorBureaucracy
   - NFSpeciesSpecific
+  - ContractorFirearm
+  - ContractorMag
 
 # Pilot
 - type: roleLoadout
@@ -51,6 +53,8 @@
   - ContractorTrinkets
   - ContractorBureaucracy
   - NFSpeciesSpecific
+  - ContractorFirearm
+  - ContractorMag
 
 # Mercenary
 - type: roleLoadout
@@ -69,6 +73,7 @@
   - MercenaryEars
   - MercenaryFirearm
   - MercenaryPistol
+  - MercenaryMag
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - MercenaryPDA
@@ -182,7 +187,7 @@
   - ContractorGlasses
   - ContractorBelt
   - StationRepEars
-  - StationRepFirearm # Mono
+  - ColonialLiaisonFirearm # Mono
   - ContractorBoxSurvival
   - StationRepPDA
   - ContractorWallet
@@ -207,6 +212,7 @@
   - SecurityGuardEars
   - SecurityGuardFirearm # Mono
   - SecurityGuardPistol # Mono
+  - SecurityGuardAmmo # Mono
   - NfsdBoxSurvival
   - SecurityGuardPDA
   - ContractorWallet

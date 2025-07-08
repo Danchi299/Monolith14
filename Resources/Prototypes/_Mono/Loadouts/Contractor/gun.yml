@@ -1,0 +1,18 @@
+- type: loadoutGroup
+  id: ContractorFirearm
+  name: loadout-group-pistol
+  minLimit: 1
+  loadouts:
+  - ContractorMk32Loadout
+  - ContractorDisablerLoadout
+  - ContractorDoubleBarreledLoadout
+  fallbacks:
+  - ContractorMk32Loadout
+
+- type: loadoutGroup
+  id: ContractorMag
+  name: loadout-group-magazine
+  minLimit: 0
+  loadouts:
+  - Contractor9x19mmPistolAmmoLoadout #MK32 Universal
+  - ContractorBeanbagAmmoLoadout #Beanbag
