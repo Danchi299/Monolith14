@@ -1,0 +1,50 @@
+# SPDX-FileCopyrightText: 2025 core-mene
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: technology
+  id: MercArmementAdvanced
+  name: research-technology-merc-armement-advanced
+  entityIcon: WeaponLMGRatel
+  discipline: Arsenal
+  tier: 2
+  cost: 55000
+  recipeUnlocks:
+  - WeaponLMGRatel
+  - WeaponShotgunBigBuddy
+  technologyPrerequisites:
+  - MercArmementSimple
+  - SuperParts
+  position: 6, 1
+
+- type: technology
+  id: MercArmementSimple
+  name: research-technology-merc-armement-simple
+  entityIcon: WeaponShotgunEnforcer
+  discipline: Arsenal
+  tier: 2
+  cost: 35000
+  recipeUnlocks:
+  - WeaponShotgunBigJohnny
+  - WeaponShotgunEnforcerMerc
+  - WeaponRifleVulcanMerc
+  technologyPrerequisites:
+  - MercArmementBasic
+  - ConcentratedLaserWeaponry
+  position: 5, 1
+
+- type: technology
+  id: MercArmementBasic
+  name: research-technology-merc-armement-basic
+  entityIcon: WeaponRiflePrometheus
+  discipline: Arsenal
+  tier: 1
+  cost: 22500
+  recipeUnlocks:
+  - WeaponRiflePrometheus
+  - WeaponRifleVulcanFCMC
+  - WeaponShotgunKammererNF
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 4, 1

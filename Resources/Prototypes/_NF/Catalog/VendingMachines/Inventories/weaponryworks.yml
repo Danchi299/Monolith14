@@ -2,8 +2,10 @@
 # SPDX-FileCopyrightText: 2025 Daniel Lenrd
 # SPDX-FileCopyrightText: 2025 FireFoxPhoenix
 # SPDX-FileCopyrightText: 2025 HungryCuban
+# SPDX-FileCopyrightText: 2025 Onezero0
 # SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 core-mene
+# SPDX-FileCopyrightText: 2025 significant harassment
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -80,18 +82,27 @@
   id: WeaponryWorksVendPOIMercInventory
   startingInventory:
 # SMGs
-    WeaponSubMachineGunC20rPMC: 4294967295
-    WeaponSubMachineGunWt550PMC: 4294967295
-    WeaponRifleLecterPMC: 4294967295
-    WeaponRifleVulcanFCMC: 4294967295
-    WeaponSubMachineGunDrozdPMC: 4294967295
+    # WeaponSubMachineGunC20rPMC: 4294967295
+    # WeaponSubMachineGunWt550PMC: 4294967295
+    # WeaponRifleLecterPMC: 4294967295
+    # WeaponSubMachineGunDrozdPMC: 4294967295
+    WeaponSubMachineGunKnallstock: 4294967295
+    WeaponSubMachineGunTypewriterPMC: 4294967295
+# Rifles
+    WeaponRifleGestio: 4294967295
+    WeaponRifleNovaliteC1: 4294967295
+    # WeaponSubMachineGunC20rPMC: 4294967295
+    # WeaponRifleLecterPMC: 4294967295
+    # WeaponRifleVulcanFCMC: 4294967295
+    # WeaponSubMachineGunDrozdPMC: 4294967295
     WeaponSubMachineGunAK220: 4294967295
+    WeaponRiflePrometheus: 4294967295
 # Shotguns
-    WeaponShotgunBigJohnny: 4294967295
-    WeaponShotgunEnforcerPMC: 4294967295
+    # WeaponShotgunBigJohnny: 4294967295
+    # WeaponShotgunEnforcerPMC: 4294967295
     WeaponShotgunKammererPMC: 4294967295
 # Energy
-    WeaponLaserCannonPMC: 4294967295
+    # WeaponLaserCannonPMC: 4294967295
     WeaponEnergyGunPMC: 4294967295
     WeaponLaserCarbinePMC: 4294967295
     WeaponDisablerSMGPMC: 4294967295

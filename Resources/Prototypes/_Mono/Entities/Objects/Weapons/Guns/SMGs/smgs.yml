@@ -1,7 +1,9 @@
 # SPDX-FileCopyrightText: 2025 Dvir
 # SPDX-FileCopyrightText: 2025 Eden077
+# SPDX-FileCopyrightText: 2025 Onezero0
 # SPDX-FileCopyrightText: 2025 UltimateJester
 # SPDX-FileCopyrightText: 2025 core-mene
+# SPDX-FileCopyrightText: 2025 significant harassment
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -114,6 +116,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    price: 500
 
 - type: entity
   name: LWC Vector (9x19mm)
@@ -226,3 +230,86 @@
   - type: LaserPointer
     targetedColor: "#FF0000"
     defaultColor: "#FF0000"
+
+# merc guns
+
+- type: entity
+  name: LWC Knallstock (9x19mm/.45 ACP)
+  parent: [ BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2Contraband ] # Frontier: added BaseC2Contraband
+  id: WeaponSubMachineGunKnallstock
+  description: A rugged and reliable SMG using large, rapid fire bursts. Accepts 9x19 or .45 ACP pistol magazines. Watch out for its ammo consumption.
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/SMGs/knallstock.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: GunWieldBonus
+    minAngle: -17
+    maxAngle: -18
+  - type: Clothing
+    sprite: _Mono/Objects/Weapons/Guns/SMGs/knallstock.rsi
+  - type: Gun
+    fireRate: 6
+    minAngle: 21
+    maxAngle: 32
+    selectedMode: Burst
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+    availableModes:
+    - Burst
+    - FullAuto
+    burstCooldown: 0.4
+    burstFireRate: 13
+    shotsPerBurst: 4
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: Magazine45_ACPPistolFMJ
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - Magazine45_ACPPistolFMJ
+          - Magazine9x19mmPistolFMJ
+      gun_chamber:
+        name: Chamber
+        startingItem: Cartridge45_ACPFMJ
+        priority: 1
+        whitelist:
+          tags:
+          - Cartridge45_ACPFMJ
+          - Cartridge9x19mmFMJ
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: true
+  - type: LaserPointer
+    targetedColor: "#62ab3a"
+    defaultColor: "#62ab3a"
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+
+#weaker typewriter for libvend
+- type: entity
+  name: PA Keyboard (.45 ACP)
+  parent: WeaponSubMachineGunTypewriter
+  id: WeaponSubMachineGunTypewriterPMC
+  description: A modern take on the classic design used by mobsters throughout space and time. This one is an offbrand mercenary version of the typewritter nicknamed the "keyboard", its barrel heat rapidly which reduce accuracy. Uses .45 ACP ammo.
+  components:
+  - type: GunWieldBonus
+    minAngle: -20
+    maxAngle: -30
+  - type: Gun
+    minAngle: 30
+    maxAngle: 55
+    angleIncrease: 4
+    angleDecay: 10
+    fireRate: 5
+  - type: StaticPrice
+    price: 500
