@@ -12,3 +12,8 @@
   id: TsfmcClothingNeckIFFWhite
   equipment:
     neck: ClothingNeckIFFNeutral
+
+- type: loadout
+  id: TsfmcClothingNeckftlmantle
+  equipment:
+    neck: ClothingNeckftlmantle
