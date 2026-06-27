@@ -96,3 +96,11 @@
     clothingPrototypes:
       head: ClothingHeadHatCOG
 
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckftlmantle
+  name: fire team leader's pauldron
+  description: A small pauldron given to FTLs of the TSFMC to show their increased rank over marines
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Neck/Cloaks/ftlmantle.rsi
